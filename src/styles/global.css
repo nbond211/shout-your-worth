@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Black.woff') format('woff'), url('../fonts/Avenir-Black.ttf')  format('truetype'), url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProspectusM-Reg';
+    src: url('../fonts/ProspectusM-Reg.eot?#iefix') format('embedded-opentype'),  url('../fonts/ProspectusM-Reg.otf')  format('opentype'),
+    url('../fonts/ProspectusM-Reg.woff') format('woff'), url('../fonts/ProspectusM-Reg.ttf')  format('truetype'), url('../fonts/ProspectusM-Reg.svg#ProspectusM-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProspectusM-Bld';
+    src: url('../fonts/ProspectusM-Bld.eot?#iefix') format('embedded-opentype'),  url('../fonts/ProspectusM-Bld.otf')  format('opentype'),
+    url('../fonts/ProspectusM-Bld.woff') format('woff'), url('../fonts/ProspectusM-Bld.ttf')  format('truetype'), url('../fonts/ProspectusM-Bld.svg#ProspectusM-Bld') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Font Sizes */
+    --h1-font-size: 38px;
+    --h2-font-size: 24px;
+    --h3-font-size: 18px;
+    --h4-font-size: 14px;
+    --h5-font-size: 12px;
+    --p-font-size: 16px;
+
+    /* Colors */
+    --almost-black-color: #2d2d2d;
+}
+
+body {
+    color: var(--almost-black-color);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+    font-family: 'ProspectusM-Bld', serif;
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+    font-family: 'ProspectusM-Reg', serif;
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+    font-family: 'Avenir-Black', sans-serif;
+}
+
+p {
+    font-size: var(--p-font-size);
+    font-family: 'ProspectusM-Reg', serif;
+}
+
+
