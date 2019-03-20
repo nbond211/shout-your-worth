@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Shout Your Worth`,
+    description: `Shout Your Worth is a tool-kit for communicating your value. It’s an experience that’s intended to get you more comfortable talking about yourself so that you can advocate for yourself.`,
+    author: `The Shout Your Worth Team`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
