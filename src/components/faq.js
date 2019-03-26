@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import _ from "lodash";
-import faqStyles from "../styles/faq.module.css"
+import styles from "../styles/faq.module.css"
 
 function FAQ(props) {
   const faqs = useStaticQuery(
@@ -19,11 +19,11 @@ function FAQ(props) {
     `
   ).allFaqsJson.edges;
 
-  return <div className={faqStyles.wrapper}>
-    <div className={faqStyles.container}>
+  return <div className={styles.wrapper}>
+    <div className={styles.container}>
       <h5>Frequently Asked Questions</h5>
       {_.map(faqs, (e, idx) => 
-        <div className={faqStyles.question} key={idx}>
+        <div className={styles.question} key={idx}>
           <h3>{e.node.question}</h3>
           <p>{e.node.answer}</p>
         </div>

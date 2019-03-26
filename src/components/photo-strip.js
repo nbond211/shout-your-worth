@@ -6,6 +6,7 @@ import _ from "lodash"
 import styles from "../styles/photo-strip.module.css"
 
 export default function PhotoStrip(props) {
+  // TODO figure out how to parametrize this
   const {allFile} = useStaticQuery(
     graphql`
       query {

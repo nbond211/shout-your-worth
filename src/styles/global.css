@@ -34,10 +34,10 @@
     --almost-black-color: #2d2d2d;
 
     /* Breakpoints */
-    --mobile: 600px;
-    --tablet-landscape: 768px;
-    --desktop: 992px;
-    --desktop-large: 1200px;
+    --sm-breakpoint: 600px;
+    --md-breakpoint: 768px;
+    --lg-breakpoint: 992px;
+    --xl-breakpoint: 1200px;
 }
 
 * {
