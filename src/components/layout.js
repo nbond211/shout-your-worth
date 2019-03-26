@@ -21,7 +21,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div>
         <div
           style={{
             margin: `0 auto`,
@@ -34,7 +34,7 @@ const Layout = ({ children }) => (
           <footer>
           </footer>
         </div>
-      </>
+      </div>
     )}
   />
 )

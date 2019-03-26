@@ -32,6 +32,12 @@
 
     /* Colors */
     --almost-black-color: #2d2d2d;
+
+    /* Breakpoints */
+    --mobile: 600px;
+    --tablet-landscape: 768px;
+    --desktop: 992px;
+    --desktop-large: 1200px;
 }
 
 body {

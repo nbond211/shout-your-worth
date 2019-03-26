@@ -1,0 +1,16 @@
+h5 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.container {
+  border: 1px solid var(--almost-black-color);
+  padding: 3rem 5rem 1.5rem;
+}
+
+.question {
+  margin-bottom: 3rem;
+}
