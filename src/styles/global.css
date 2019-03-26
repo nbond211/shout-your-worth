@@ -40,8 +40,13 @@
     --desktop-large: 1200px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--almost-black-color);
+    margin: 0;
 }
 
 h1 {

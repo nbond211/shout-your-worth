@@ -19,14 +19,16 @@ function FAQ(props) {
     `
   ).allFaqsJson.edges;
 
-  return <div className={faqStyles.container}>
-    <h5>Frequently Asked Questions</h5>
-    {_.map(faqs, (e, idx) => 
-      <div className={faqStyles.question} key={idx}>
-        <h3>{e.node.question}</h3>
-        <p>{e.node.answer}</p>
-      </div>
-      )}
+  return <div className={faqStyles.wrapper}>
+    <div className={faqStyles.container}>
+      <h5>Frequently Asked Questions</h5>
+      {_.map(faqs, (e, idx) => 
+        <div className={faqStyles.question} key={idx}>
+          <h3>{e.node.question}</h3>
+          <p>{e.node.answer}</p>
+        </div>
+        )}
+    </div>
   </div>;
 }
 
