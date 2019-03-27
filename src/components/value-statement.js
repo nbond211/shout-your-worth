@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { graphql, StaticQuery } from "gatsby"
-import styles from "../styles/testimonials.module.css"
+import styles from "../styles/value-statement.module.css"
 
 class ValueStatement extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ class ValueStatement extends React.Component {
   }
 
   randomizeValueStatement() {
-    console.log("update", this.props.data.accomplishments);
+    // guard against undefined props.data
     let a = this.props.data.accomplishments ? this.props.data.accomplishments.length : 1;
     let s = this.props.data.skills ? this.props.data.skills.length : 1;
     let r = this.props.data.results ? this.props.data.results.length : 1;
@@ -38,11 +38,12 @@ class ValueStatement extends React.Component {
   }
 
   render() {
+    // guard against undefined props.data
     let accomplishment = this.props.data.accomplishments ? this.props.data.accomplishments[this.state.a] : "built something cool";
     let skill = this.props.data.skills ? this.props.data.skills[this.state.s] : "bravery";
     let result = this.props.data.results ? this.props.data.results[this.state.r] : "felt 30% more confident";
 
-    return <div className={styles.testimonials}>
+    return <div className={styles.container}>
       <h2>So this one time I...</h2>
       <div className={styles.value_statement}>
         <Statement title="accomplishment" value={accomplishment} />

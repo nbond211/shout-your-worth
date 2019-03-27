@@ -1,45 +1,11 @@
-.testimonials {
-  text-align: center;
-  padding: 1.3rem 0;
-}
-
-.value_statement {
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 360px;
 }
 
-.joiner {
-  width: 100%%;
-}
-
-.statement {
+.testimonials {
   text-align: center;
-  width: 65%;
-}
-
-.value {
-  font-family: cursive;
-  border-bottom: 1px solid var(--almost-black-color);
-}
-
-/* desktop up */
-@media (min-width: 768px) {
-  .testimonials {
-    padding: 3rem 0 4rem;
-  }
-
-  .value_statement {
-    flex-direction: row;
-  }
-
-  .joiner {
-    width: 14%;
-  }
-
-  .statement {
-    text-align: center;
-    width: 22%;
-  }
+  width: 80%;
 }

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import CTA from "../components/cta"
 import FAQ from "../components/faq"
 import SEO from "../components/seo"
+import Testimonials from "../components/testimonials"
 import ValueStatement from "../components/value-statement"
 
 import IndexStyles from "./index.module.scss";
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <ValueStatement />
     <CTA />
+    <Testimonials />
     <FAQ />
   </Layout>
 )
