@@ -1,0 +1,17 @@
+import React from "react"
+import { graphql, useStaticQuery} from "gatsby"
+import _ from "lodash"
+import styles from "../styles/photo-strip.module.css"
+
+export default function PhotoStrip(props) {
+  return <div>
+    <div className={styles.container}>
+      { _.map(props.urls, (url, idx) => {
+        return <div key={idx} 
+          className={styles.image} 
+          style={{backgroundImage: "url("+url+")"}} />; 
+      })}
+    </div>
+    {props.children}
+  </div>;
+}

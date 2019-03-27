@@ -1,0 +1,38 @@
+h5 {
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  position: absolute;
+  margin-top: -50vw;
+  width: 100%;
+}
+
+.container {
+  background-color: white;
+  border: 1px solid var(--almost-black-color);
+  margin: 20% auto 0;
+  padding: 2rem;
+  width: 88%;
+}
+
+.question {
+  margin-bottom: 3rem;
+}
+
+/* tablet and up */
+@media (min-width: 600px) {
+  .wrapper {
+    margin-top: -25vw;
+  }
+
+  .container {
+    margin-top: 6%;
+    padding: 3rem 5rem 1.5rem;
+    width: 90%;
+  }
+}

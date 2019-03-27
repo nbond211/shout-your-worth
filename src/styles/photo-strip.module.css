@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  background-repeat: none;
+  background-size: cover;
+  height: 50vw;
+  width: 50vw;
+}
+
+/* tablet and up */
+@media (min-width: 600px) {
+  .container {
+    height: 25vw;
+  }
+
+  .image {
+    height: 25vw;
+    width: 25vw;
+  }
+}
