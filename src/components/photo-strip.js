@@ -3,7 +3,7 @@ import _ from "lodash"
 import styles from "../styles/photo-strip.module.css"
 
 export default function PhotoStrip(props) {
-  return <div>
+  return <div className={props.className}>
     <div className={styles.container}>
       { _.map(props.urls, (url, idx) => {
         return <div key={idx} 

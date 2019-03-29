@@ -34,7 +34,7 @@ function FAQ(props) {
 
   const urls = _.map(allFile.edges, (e) => e.node.childImageSharp.fluid.src);
 
-  return <PhotoStrip urls={urls}>
+  return <PhotoStrip urls={urls} className={styles.faq}>
     <div className={styles.wrapper}>
       <div className={styles.container}>
         <h5>Frequently Asked Questions</h5>
