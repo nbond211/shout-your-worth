@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery} from "gatsby"
 import _ from "lodash"
 import styles from "../styles/photo-strip.module.css"
 

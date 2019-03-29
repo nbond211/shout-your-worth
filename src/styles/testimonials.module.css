@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+}
+
+.testimonials {
+  text-align: center;
+  width: 80%;
+}
