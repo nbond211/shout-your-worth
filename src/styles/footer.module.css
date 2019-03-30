@@ -5,6 +5,7 @@
   flex-flow: row wrap;
   justify-content: center;
   min-height: 14rem;
+  padding: .8rem 0 1rem;
 }
 
 .footer {

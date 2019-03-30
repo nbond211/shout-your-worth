@@ -6,6 +6,7 @@ import CTA from "../components/cta"
 import FAQ from "../components/faq"
 import Footer from "../components/footer"
 import Header from "../components/header"
+import Materials from "../components/materials"
 import SEO from "../components/seo"
 import Testimonials from "../components/testimonials"
 import ValueStatement from "../components/value-statement"
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <About />
     <ValueStatement />
     <CTA />
+    <Materials />
     <Testimonials />
     <FAQ />
     <Footer />
