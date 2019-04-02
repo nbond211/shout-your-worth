@@ -1,0 +1,27 @@
+.container {
+
+}
+
+.splash {
+  background-color: #dedede;
+  padding: 2rem;
+}
+
+.about {
+  padding: 2rem;
+}
+
+/* tablet and up */
+@media (min-width: 600px) {
+  .col_0 {
+    width: 50%;
+  }
+
+  .col_1 {
+    width: 40%;
+  }
+
+  .col_2 {
+    width: 60%;
+  }
+}

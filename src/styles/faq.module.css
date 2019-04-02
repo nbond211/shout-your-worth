@@ -6,6 +6,10 @@ h3 {
   margin-bottom: 0;
 }
 
+.faq {
+  height: 33rem;
+}
+
 .wrapper {
   position: absolute;
   margin-top: -50vw;
@@ -26,6 +30,10 @@ h3 {
 
 /* tablet and up */
 @media (min-width: 600px) {
+  .faq {
+    height: 30rem;
+  }
+
   .wrapper {
     margin-top: -25vw;
   }

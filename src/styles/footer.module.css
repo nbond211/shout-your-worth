@@ -1,0 +1,41 @@
+.container {
+  background-color: var(--almost-black-color);
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-height: 14rem;
+  padding: .8rem 0 1rem;
+}
+
+.footer {
+  margin-bottom: 0;
+}
+
+.logo {
+  background-image: url(../images/logo-white.svg);
+  background-repeat: no-repeat;
+  height: 5rem;
+  width: auto;
+  margin: 1.4rem 0 0;
+}
+
+.brand, .created_by, .as_part_of {
+  padding: 1rem 2rem;
+}
+
+.brand {
+  width: 100%;
+}
+
+.created_by, .as_part_of {
+  width: 50%;
+}
+
+/* tablet and up */
+@media (min-width: 600px) {
+  .brand, .created_by, .as_part_of {
+    width: 25%;
+    padding: 1rem;
+  }
+}
