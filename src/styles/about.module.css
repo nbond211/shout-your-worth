@@ -3,8 +3,20 @@
 }
 
 .splash {
-  background-color: #dedede;
-  padding: 2rem;
+    padding: 2rem;
+}
+
+.splash::before {
+    content: "";
+    background-image: url("../images/about/blue-about-shape.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    margin: -2rem;
+    z-index: -1;
 }
 
 .about {
