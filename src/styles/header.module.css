@@ -1,4 +1,5 @@
 .container {
+  position: relative;
   height: 28rem;
   display: flex;
   align-items: center;
@@ -6,21 +7,73 @@
   width: 100%;
 }
 
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 12rem;
+}
+
+.divider {
+  background-image: url(../images/header/divider-line.png);
+  background-repeat: no-repeat;
+  height: 16rem;
+  width: 1rem;
+  margin: 0 2.375rem 0 3.75rem;
+}
+
+.slogan {
+  margin-bottom: 3rem;
+}
+
+.topLeftShape {
+  background-image: url("../images/header/green-header-shape.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24rem;
+  height: 23rem;
+}
+
+.bottomLeftShape {
+  background-image: url("../images/header/yellow-header-shape.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 7rem;
+  width: 17rem;
+  height: 5.375rem;
+}
+
+.bottomRightShape {
+  background-image: url("../images/header/red-header-shape.png");
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 22.5rem;
+  height: 17rem;
+  background-repeat: no-repeat;
 }
 
 /* tablet and up */
 @media (min-width: 600px) {
   .container {
-    height: 27rem;
+    height: 31rem;
   }
 
   .logo {
-    height: 20rem;
-    width: 20rem;
+    height: 12rem;
+    width: 14rem;
+  }
+
+  .slogan {
+    max-width: 415px;
   }
 }
