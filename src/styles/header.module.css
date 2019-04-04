@@ -1,26 +1,149 @@
 .container {
-  height: 28rem;
+  position: relative;
+  height: 31rem;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
 
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   background-image: url(../images/logo.svg);
   background-repeat: no-repeat;
-  height: 15rem;
-  width: 15rem;
+  height: 10rem;
+  width: 12rem;
+}
+
+.divider {
+  display: none;
+}
+
+.slogan {
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 415px;
+  padding: 0 1.5rem;
+}
+
+.topLeftShape {
+  background-image: url("../images/header/green-header-shape.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  width: 12rem;
+  height: 20rem;
+  z-index: -1;
+}
+
+.bottomLeftShape {
+  background-image: url("../images/header/yellow-header-shape.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: -3rem;
+  width: 13rem;
+  height: 4rem;
+  z-index: -1;
+}
+
+.bottomRightShape {
+  background-image: url("../images/header/red-header-shape.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  bottom: 0;
+  right: 0;
+  width: 11rem;
+  height: 8.45rem;
+  z-index: -1;
 }
 
 /* tablet and up */
 @media (min-width: 600px) {
-  .container {
-    height: 27rem;
+  .logo {
+    height: 12rem;
+    width: 14rem;
   }
 
-  .logo {
+  .slogan {
+    padding: 0;
+  }
+
+  .topLeftShape {
+    width: 15rem;
     height: 20rem;
-    width: 20rem;
+  }
+
+  .bottomLeftShape {
+    width: 13rem;
+    height: 4rem;
+  }
+
+  .bottomRightShape {
+    width: 15.75rem;
+    height: 12rem;
+  }
+}
+
+/* tablet and up */
+@media (min-width: 768px) {
+  .topLeftShape {
+    width: 18rem;
+    height: 20rem;
+  }
+
+  .bottomLeftShape {
+    width: 15rem;
+    height: 4.5rem;
+    left: 7rem;
+  }
+
+  .bottomRightShape {
+    width: 19rem;
+    height: 14.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .logoContainer {
+    flex-direction: row;
+  }
+
+  .divider {
+    display: inline;
+    background-image: url(../images/header/divider-line.png);
+    background-repeat: no-repeat;
+    height: 16rem;
+    width: 1rem;
+    margin: 0 2.375rem 0 3.75rem;
+  }
+
+  .slogan {
+    text-align: left;
+  }
+
+  .topLeftShape {
+    width: 24rem;
+    height: 23rem;
+  }
+
+  .bottomLeftShape {
+    width: 17rem;
+    height: 5.375rem;
+  }
+
+  .bottomRightShape {
+    width: 22rem;
+    height: 16.8rem;
   }
 }
