@@ -5,8 +5,8 @@ export default function About(props) {
   return <div className={styles.container}>
     <div className={styles.splash}/>
     <div className={styles.col_0}>
-      <h5>What is it?</h5>
-      <h1>Shout Your Worth is a toolkit to help you communicate your value.</h1>
+      <h5 className={styles.smallTitle}>How Does It Work?</h5>
+      <h1 className={styles.subtitle}>Practice talking about the value that you bring to the table in an approachable, fun setting.</h1>
     </div>
     <div className={styles.col_2}>
       {/* TODO image goes here */}

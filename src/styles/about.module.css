@@ -20,6 +20,17 @@
   padding: 2rem;
 }
 
+.smallTitle {
+  color: var(--white-color);
+  margin: 0;
+}
+
+.subtitle {
+  max-width: 450px;
+  color: var(--white-color);
+  margin-top: 1rem;
+}
+
 /* tablet and up */
 @media (min-width: 600px) {
   .col_0 {
