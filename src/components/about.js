@@ -23,14 +23,10 @@ export default function About(props) {
     <div className={styles.about}>
       <div className={styles.col_1}>
         <h3>Why Shout Your Worth?</h3>
-        <p>Talking about your value can be difficult, especially in high-stakes 
-          situations like job interviews and salary negotiations. Shout Your Worth 
-          is a tool to help you practice this crucial skill in a fun, game-like setting 
-          so that you feel empowered to advocate for yourself anywhere!<br/><br/></p>
+        <p>A playful, game-like experience creates a safe space where players feel supported and comfortable being vulnerable and brave.<br/><br/>
+          Players walk away from the experience feeling confident and empowered to tackle what can be an uncomfortable conversation – advocating for themselves.<br/><br/></p>
         <h3>What are Value Statements?</h3>
-        <p>Value statements are a proven strategic device for communicating your worth. 
-          They highlight what you did, how you did it, and the effect it had. Bring them 
-          to any conversation that requires you to advocate for yourself.</p>
+        <p>Value statements are a proven method for communicating your worth. They can be used in conversation that requires self-advocacy such as a salary negotiation or job interview.</p>
       </div>
     </div>
   </div>;
