@@ -1,6 +1,7 @@
 .container {
   padding: 7.5rem 6.25rem;
   position: relative;
+  overflow: hidden;
 }
 
 .splash {
@@ -31,6 +32,10 @@
   margin-top: 1rem;
 }
 
+.card {
+  position: absolute;
+}
+
 /* tablet and up */
 @media (min-width: 600px) {
   .col_0 {
@@ -43,6 +48,33 @@
 
   .col_2 {
     width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .accomplishment35 {
+    top: 1rem;
+    right: 21rem;
+  }
+
+  .skill25 {
+    top: 9rem;
+    right: 1rem;
+  }
+
+  .result19 {
+    top: 17.5rem;
+    right: 11rem;
+  }
+
+  .skill22 {
+    top: 34.375rem;
+    right: 18rem;
+  }
+
+  .accomplishment34 {
+    top: 42.1875rem;
+    right: -14rem;
   }
 }
 

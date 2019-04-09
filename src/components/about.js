@@ -1,5 +1,10 @@
 import React from "react"
 import styles from "../styles/about.module.css"
+import accomplishment34 from "../images/about/accomplishment-34.png";
+import accomplishment35 from "../images/about/accomplishment-35.png";
+import result19 from "../images/about/result-19.png";
+import skill22 from "../images/about/skill-22.png";
+import skill25 from "../images/about/skill-25.png";
 
 export default function About(props) {
   return <div className={styles.container}>
@@ -9,7 +14,11 @@ export default function About(props) {
       <h1 className={styles.subtitle}>Practice talking about the value that you bring to the table in an approachable, fun setting.</h1>
     </div>
     <div className={styles.col_2}>
-      {/* TODO image goes here */}
+      <img className={`${styles.accomplishment35} ${styles.card}`} src={accomplishment35}/>
+      <img className={`${styles.skill25} ${styles.card}`} src={skill25}/>
+      <img className={`${styles.result19} ${styles.card}`} src={result19}/>
+      <img className={`${styles.skill22} ${styles.card}`} src={skill22}/>
+      <img className={`${styles.accomplishment34} ${styles.card}`} src={accomplishment34}/>
     </div>
     <div className={styles.about}>
       <div className={styles.col_1}>
