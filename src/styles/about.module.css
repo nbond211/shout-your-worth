@@ -27,7 +27,6 @@
 }
 
 .subtitle {
-  max-width: 450px;
   color: var(--white-color);
   margin-top: 1rem;
 }
@@ -39,7 +38,7 @@
 /* tablet and up */
 @media (min-width: 600px) {
   .col_0 {
-    width: 50%;
+    width: 60%;
   }
 
   .col_1 {
@@ -52,6 +51,66 @@
 }
 
 @media (min-width: 992px) {
+  .subtitle {
+    max-width: 800px;
+  }
+
+  .accomplishment35 {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .skill25 {
+    top: 9rem;
+    right: -21rem;
+  }
+
+  .result19 {
+    top: 17.5rem;
+    right: -11rem;
+  }
+
+  .skill22 {
+    top: 34.375rem;
+    right: -2rem;
+  }
+
+  .accomplishment34 {
+    display: none;
+  }
+}
+
+@media (min-width: 1090px) {
+  .subtitle {
+    max-width: 450px;
+  }
+
+  .accomplishment35 {
+    top: 1rem;
+    right: 11rem;
+  }
+
+  .skill25 {
+    top: 9rem;
+    right: -11rem;
+  }
+
+  .result19 {
+    top: 17.5rem;
+    right: 1rem;
+  }
+
+  .skill22 {
+    top: 34.375rem;
+    right: 8rem;
+  }
+
+  .accomplishment34 {
+    display: none;
+  }
+}
+
+@media (min-width: 1250px) {
   .accomplishment35 {
     top: 1rem;
     right: 21rem;
@@ -75,6 +134,7 @@
   .accomplishment34 {
     top: 42.1875rem;
     right: -14rem;
+    display: inline;
   }
 }
 
