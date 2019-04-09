@@ -3,14 +3,13 @@ import styles from "../styles/about.module.css"
 
 export default function About(props) {
   return <div className={styles.container}>
-    <div className={styles.splash}>
-      <div className={styles.col_0}>
-        <h5>What is it?</h5>
-        <h1>Shout Your Worth is a toolkit to help you communicate your value.</h1>
-      </div>
-      <div className={styles.col_2}>
-        {/* TODO image goes here */}
-      </div>
+    <div className={styles.splash}/>
+    <div className={styles.col_0}>
+      <h5>What is it?</h5>
+      <h1>Shout Your Worth is a toolkit to help you communicate your value.</h1>
+    </div>
+    <div className={styles.col_2}>
+      {/* TODO image goes here */}
     </div>
     <div className={styles.about}>
       <div className={styles.col_1}>

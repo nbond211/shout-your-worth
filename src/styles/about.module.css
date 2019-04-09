@@ -1,22 +1,19 @@
 .container {
-
+  padding: 7.5rem 6.25rem;
+  position: relative;
 }
 
 .splash {
-    padding: 2rem;
-}
-
-.splash::before {
-    content: "";
-    background-image: url("../images/about/blue-about-shape.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    width: 100vw;
-    height: 100%;
-    margin: -2rem;
-    z-index: -1;
+  background-image: url("../images/about/blue-about-shape.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
 }
 
 .about {
@@ -35,5 +32,11 @@
 
   .col_2 {
     width: 60%;
+  }
+}
+
+@media (min-width: 1350px) {
+  .splash {
+    background-size: contain;
   }
 }
