@@ -57,6 +57,11 @@ body {
     margin: 0;
 }
 
+main {
+  width: 100vw;
+  overflow: hidden;
+}
+
 h1 {
     font-size: var(--h1-font-size);
     font-family: 'ProspectusM-Bld', serif;

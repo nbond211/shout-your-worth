@@ -1,7 +1,7 @@
 .container {
-  padding: 7.5rem 6.25rem;
+  padding: 3rem 3rem;
   position: relative;
-  overflow: hidden;
+  height: auto;
 }
 
 .splash {
@@ -27,22 +27,143 @@
   margin-top: 1rem;
 }
 
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.col_0 {
+  width: 100%;
+}
+
+.col_1 {
+  width: 100%;
+}
+
+.col_2 {
+  position: relative;
+  width: 100%;
+  height: 39rem;
+}
+
 .card {
   position: absolute;
+  transform: scale(0.6);
+}
+
+.accomplishment35 {
+  top: -5rem;
+  right: -2rem;
+}
+
+.skill25 {
+  top: 3rem;
+  right: -8rem;
+}
+
+.result19 {
+  top: 14.5rem;
+  right: 0;
+}
+
+.skill22 {
+  display: none;
+}
+
+.accomplishment34 {
+  display: none;
+}
+
+@media (min-width: 450px) {
+  .container {
+    padding: 7.5rem 3rem;
+    position: relative;
+  }
+
+  .col_2 {
+    height: 49rem;
+  }
+
+  .card {
+    position: absolute;
+    transform: scale(0.8);
+  }
+
+  .accomplishment35 {
+    top: -3rem;
+    right: 6rem;
+  }
+
+  .skill25 {
+    top: 9rem;
+    right: -2rem;
+  }
+
+  .result19 {
+    top: 20.5rem;
+    right: 8rem;
+  }
 }
 
 /* tablet and up */
 @media (min-width: 600px) {
+  .accomplishment35 {
+    top: -3rem;
+    right: 15rem;
+  }
+
+  .skill25 {
+    top: 9rem;
+    right: 1rem;
+  }
+
+  .result19 {
+    top: 20.5rem;
+    right: 8rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 7.5rem 6.25rem;
+  }
+
+  .contentContainer {
+    display: inline-block;
+  }
+
   .col_0 {
-    width: 100%;
+    margin-bottom: 12rem;
   }
 
   .col_1 {
-    width: 40%;
+    width: 60%;
   }
 
   .col_2 {
-    width: 60%;
+     position: static;
+     height: 0;
+   }
+
+  .accomplishment35 {
+    top: 17rem;
+    right: 1rem;
+  }
+
+  .skill25 {
+    display: none;
+  }
+
+  .result19 {
+    top: 29.5rem;
+    right: -11rem;
+  }
+
+  .skill22 {
+    top: 38.375rem;
+    right: -4rem;
+    display: inline;
   }
 }
 
@@ -52,8 +173,16 @@
     margin-bottom: 10rem;
   }
 
+  .col_1 {
+    width: 40%;
+  }
+
   .subtitle {
     max-width: 800px;
+  }
+
+  .card {
+    transform: scale(1);
   }
 
   .accomplishment35 {
@@ -64,6 +193,7 @@
   .skill25 {
     top: 9rem;
     right: -21rem;
+    display: inline;
   }
 
   .result19 {
@@ -74,10 +204,6 @@
   .skill22 {
     top: 34.375rem;
     right: -2rem;
-  }
-
-  .accomplishment34 {
-    display: none;
   }
 }
 
@@ -104,10 +230,6 @@
   .skill22 {
     top: 34.375rem;
     right: 8rem;
-  }
-
-  .accomplishment34 {
-    display: none;
   }
 }
 
