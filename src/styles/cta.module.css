@@ -5,7 +5,7 @@ h5.cta {
 }
 
 button {
-  margin: 7rem 0 2.375rem 0;
+  margin: 3rem 0 1.375rem 0;
 }
 
 .wrapper {
@@ -20,7 +20,7 @@ button {
 .container {
   text-align: center;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
 }
 
 .caret {
@@ -29,8 +29,31 @@ button {
   color: var(--white-color);
 }
 
+@media (min-width: 450px) {
+  button {
+    margin: 7rem 0 2.375rem 0;
+  }
+}
+
 /* tablet and up */
 @media (min-width: 600px) {
+  .container {
+    width: 50%;
+  }
+
+  .wrapper {
+    margin-top: -33.33vw;
+    height: 33.33vw;
+  }
+
+  .image {
+    height: 33.33vw;
+    width: 33.33vw;
+  }
+}
+
+/* tablet and up */
+@media (min-width: 992px) {
   .wrapper {
     margin-top: -25vw;
     height: 25vw;

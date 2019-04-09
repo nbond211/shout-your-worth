@@ -25,6 +25,17 @@
 /* tablet and up */
 @media (min-width: 600px) {
   .container {
+    height: 33.33vw;
+  }
+
+  .image {
+    height: 33.33vw;
+    width: 33.33vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
     height: 25vw;
   }
 
