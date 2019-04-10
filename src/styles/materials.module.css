@@ -2,6 +2,20 @@
   display: flex;
   flex-flow: row wrap;
   padding-top: 2rem;
+  position: relative;
+}
+
+.splash {
+  background-image: url("../images/materials/yellow-wash.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 200%;
+  z-index: -1;
 }
 
 img.materials {
@@ -30,5 +44,11 @@ img.materials {
 
   .button_container {
     text-align: left;
+  }
+}
+
+@media (min-width: 1350px) {
+  .splash {
+    background-size: contain;
   }
 }
