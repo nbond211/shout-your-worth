@@ -33,6 +33,11 @@
   border-bottom: 1px solid var(--almost-black-color);
 }
 
+.title {
+  margin: 1.25rem 0 0 0;
+  letter-spacing: 0.12rem;
+}
+
 /* desktop up */
 @media (min-width: 768px) {
   .testimonials {
