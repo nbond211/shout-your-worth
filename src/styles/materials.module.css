@@ -23,7 +23,11 @@ img.materials {
 }
 
 .col_2 {
-  padding: 0 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
   width: 100%;
 }
 
@@ -47,17 +51,27 @@ img.materials {
   margin-top: 2.25rem;
 }
 
+@media (min-width: 768px) {
+  .col_1 {
+    width: 50%;
+  }
 
-/* tablet and up */
-@media (min-width: 600px) {
+  .col_2 {
+    display: block;
+    width: 50%;
+    padding-left: 4rem;
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
   .col_1 {
     width: 60%;
   }
 
   .col_2 {
-    padding-top: 7.5rem;
     width: 40%;
-    padding-left: 4rem;
+    padding-top: 7.5rem;
   }
 }
 

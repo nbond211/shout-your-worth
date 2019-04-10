@@ -10,12 +10,14 @@ export default function Materials(props) {
       <img className={styles.materials} src={materials} />
     </div>
     <div className={styles.col_2}>
+      <div className={styles.textContainer}>
       <h5 className={styles.downloadLabel}>Your Download Includes</h5>
       <ul className={styles.list}>
         <li>177 Shout Your Worth Cards</li>
         <li>1 Playmat</li>
         <li>1 Rule Booklet</li>
       </ul>
+      </div>
       <Button className={styles.button} href="#TODO">Download For Free</Button>
     </div>
   </div>;
