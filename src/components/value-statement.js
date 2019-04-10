@@ -44,7 +44,7 @@ class ValueStatement extends React.Component {
     let result = this.props.data.results ? this.props.data.results[this.state.r] : "felt 30% more confident";
 
     return <div className={styles.container}>
-      <h2>So this one time I...</h2>
+      <h1>So this one time I...</h1>
       <div className={styles.value_statement}>
         <Statement title="accomplishment" value={accomplishment} />
         <p className={styles.joiner}>using my</p>
