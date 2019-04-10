@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:700');
+
 @font-face {
     font-family: 'Avenir-Black';
     src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Black.woff') format('woff'), url('../fonts/Avenir-Black.ttf')  format('truetype'), url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
@@ -33,6 +35,7 @@
     /* Colors */
     --almost-black-color: #2d2d2d;
     --white-color: #fff;
+    --almost-white-color: #FEFCF8;
     --blue-color: #2550A3;
 
     /* Breakpoints */
@@ -56,6 +59,7 @@
 body {
     color: var(--almost-black-color);
     margin: 0;
+    background-color: var(--almost-white-color);
 }
 
 main {
