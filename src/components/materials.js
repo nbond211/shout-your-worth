@@ -16,7 +16,7 @@ export default function Materials(props) {
         <li>1 Playmat</li>
         <li>1 Rule Booklet</li>
       </ul>
-      <Button href="#TODO">Download For Free</Button>
+      <Button className={styles.button} href="#TODO">Download For Free</Button>
     </div>
   </div>;
 }

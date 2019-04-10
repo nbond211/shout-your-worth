@@ -43,6 +43,10 @@ img.materials {
   line-height: 2;
 }
 
+.button {
+  margin-top: 2.25rem;
+}
+
 
 /* tablet and up */
 @media (min-width: 600px) {
@@ -53,6 +57,7 @@ img.materials {
   .col_2 {
     padding-top: 7.5rem;
     width: 40%;
+    padding-left: 4rem;
   }
 }
 
