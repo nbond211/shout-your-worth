@@ -4,7 +4,7 @@ h5.cta {
   letter-spacing: 1px;
 }
 
-button {
+.button {
   margin: 3rem 0 1.375rem 0;
 }
 
@@ -30,7 +30,7 @@ button {
 }
 
 @media (min-width: 450px) {
-  button {
+  .button {
     margin: 7rem 0 2.375rem 0;
   }
 }

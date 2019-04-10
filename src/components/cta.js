@@ -30,7 +30,7 @@ export default function CTA(props) {
   return <PhotoStrip urls={urls}>
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <Button href="#TODO">Download For Free</Button>
+        <Button className={styles.button} href="#TODO">Download For Free</Button>
         <h5 className={styles.cta}>What You Get</h5>
         <h5 className={styles.caret}>&#8964;</h5>
       </div>
