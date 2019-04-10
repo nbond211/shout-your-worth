@@ -1,7 +1,9 @@
 h5.cta {
+  position: relative;
   margin: 0;
   color: var(--white-color);
   letter-spacing: 1px;
+  z-index: 100;
 }
 
 .button {
@@ -24,9 +26,11 @@ h5.cta {
 }
 
 .caret {
+  position: relative;
   font-size: 2rem;
   margin: -1rem 0 0;
   color: var(--white-color);
+  z-index: 100;
 }
 
 @media (min-width: 450px) {

@@ -21,7 +21,9 @@ h3 {
   border: 1px solid var(--almost-black-color);
   margin: 20% auto 0;
   padding: 2rem;
+  position: relative;
   width: 88%;
+  z-index: 10;
 }
 
 .question {
