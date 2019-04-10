@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  padding: 7.5rem 0;
+  padding: 0 1rem 7.5rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,22 +24,51 @@
 
 .statement {
   text-align: center;
-  width: 65%;
+  width: 80%;
 }
 
 .value {
   font-family: 'Caveat', cursive;
-  font-size: var(--script-font-size);
+  font-size: 24px;
+  line-height: 35px;
   border-bottom: 1px solid var(--almost-black-color);
+  white-space: nowrap;
 }
 
 .title {
-  margin: 1.25rem 0 0 0;
+  margin: 1.25rem 0 3rem 0;
   letter-spacing: 0.12rem;
+}
+
+@media (min-width: 450px) {
+  .value {
+    font-size: 32px;
+  }
+
+  .statement {
+    width: 65%;
+  }
 }
 
 /* desktop up */
 @media (min-width: 768px) {
+  .container {
+    padding: 7.5rem 0;
+  }
+
+  .joiner {
+    width: 14%;
+    font-size: 18px;
+  }
+
+  .value {
+    font-size: 22px;
+  }
+
+  .title {
+    margin: 1.25rem 0 0 0;
+  }
+
   .testimonials {
     padding: 3rem 0 4rem;
   }
@@ -48,12 +77,18 @@
     flex-direction: row;
   }
 
-  .joiner {
-    width: 14%;
-  }
-
   .statement {
     text-align: center;
     width: 22%;
+  }
+}
+
+@media (min-width: 1150px) {
+  .value {
+    font-size: 32px;
+  }
+
+  .joiner {
+    font-size: var(--h2-font-size);
   }
 }
