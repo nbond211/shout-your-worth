@@ -33,6 +33,7 @@
     /* Colors */
     --almost-black-color: #2d2d2d;
     --white-color: #fff;
+    --almost-white-color: #FEFCF8;
     --blue-color: #2550A3;
 
     /* Breakpoints */
@@ -56,6 +57,7 @@
 body {
     color: var(--almost-black-color);
     margin: 0;
+    background-color: var(--almost-white-color);
 }
 
 main {
