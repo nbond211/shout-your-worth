@@ -10,6 +10,7 @@ export default function PhotoStrip(props) {
           className={styles.image} 
           style={{backgroundImage: "url("+url+")"}} />; 
       })}
+      <div className={styles.containerOverlay}/>
     </div>
     {props.children}
   </div>;
