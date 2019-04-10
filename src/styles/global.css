@@ -32,6 +32,7 @@
 
     /* Colors */
     --almost-black-color: #2d2d2d;
+    --white-color: #fff;
 
     /* Breakpoints */
     --sm-breakpoint: 600px;
@@ -54,6 +55,11 @@
 body {
     color: var(--almost-black-color);
     margin: 0;
+}
+
+main {
+  width: 100vw;
+  overflow: hidden;
 }
 
 h1 {
@@ -80,4 +86,5 @@ h5 {
     font-size: var(--h5-font-size);
     font-family: 'Avenir-Black', sans-serif;
     text-transform: uppercase;
+    margin: 0;
 }
