@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:700');
+
 @font-face {
     font-family: 'Avenir-Black';
     src: url('../fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir-Black.woff') format('woff'), url('../fonts/Avenir-Black.ttf')  format('truetype'), url('../fonts/Avenir-Black.svg#Avenir-Black') format('svg');
@@ -29,6 +31,7 @@
     --h4-font-size: 14px;
     --h5-font-size: 12px;
     --p-font-size: 16px;
+    --script-font-size: 32px;
 
     /* Colors */
     --almost-black-color: #2d2d2d;

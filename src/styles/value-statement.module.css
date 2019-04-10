@@ -26,7 +26,8 @@
 }
 
 .value {
-  font-family: cursive;
+  font-family: 'Caveat', cursive;
+  font-size: var(--script-font-size);
   border-bottom: 1px solid var(--almost-black-color);
 }
 
