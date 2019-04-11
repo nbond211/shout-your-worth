@@ -1,10 +1,18 @@
 [
   { 
-    "question": "Do stories need to be true?",
-    "answer": "We recommend telling the truth, but if you don't have anything that matches the cards you can make up a story."
+    "question": "Why a deck of cards?",
+    "answer": "Shout Your Worth can be used in a variety of contexts: as supplemental material for an existing salary negotiation workshop, as an informal game played with friends, or an icebreaker. Through a series of iterative play-tests, we’ve shown that Shout Your Worth offers a friendly entry point for the difficult task of self-advocacy in interview settings."
   },
   { 
-    "question": "Can I buy a boxed copy of this game?",
-    "answer": "Not at the moment. Shout Your Worth is only available for free download through our website."
+    "question": "Can I use this toolkit by myself?",
+    "answer": "Definitely! You can use Shout Your Worth cards as an exercise to jog your memory before a big interview, or even just to boost your confidence before a big day at work. Don’t forget - you’re worth it!"
+  },
+  {
+    "question": "What are some other resources I can practice with?",
+    "answer": "We’re big fans of the American Association for University Women (AAUW)’s online training. If you’re local to Boston, the city also teaches this curriculum in free, in-person workshops."
+  },
+  {
+    "question": "Where should I print the cards?",
+    "answer": "Our open source toolkit could be used digitally, or even printed on your home printer! For heavier paper, we’d recommend you take the files to your local office supply store."
   }
 ]
