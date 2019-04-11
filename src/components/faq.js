@@ -46,6 +46,9 @@ function FAQ(props) {
           )}
       </div>
     </div>
+    <div className={styles.blueLoops}/>
+    <div className={styles.greenBlob}/>
+    <div className={styles.pinkDots}/>
   </PhotoStrip>;
 }
 

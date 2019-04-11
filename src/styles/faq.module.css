@@ -16,6 +16,7 @@
 
 .faq {
   position: relative;
+  height: 100%;
 }
 
 .wrapper {
@@ -25,7 +26,7 @@
 .container {
   background-color: var(--beige-color);
   box-shadow: 0 2px 10px 0 rgba(0,0,0,0.10);
-  margin: 0 auto 12.5rem;
+  margin: 0 auto 11rem;
   padding: 2rem;
   position: relative;
   width: 90%;
@@ -37,10 +38,46 @@
   margin-bottom: 3rem;
 }
 
+.blueLoops {
+  background-image: url("../images/faq/blueloops.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 33.375rem;
+  width: 10.6875rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.greenBlob {
+  background-image: url("../images/faq/greenblob.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 21.5rem;
+  width: 34.1875rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.pinkDots {
+  background-image: url("../images/faq/pinkdots.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 19.8125rem;
+  width: 12.0625rem;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  z-index: -2;
+}
+
 /* tablet and up */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .container {
-    padding: 4.5rem 6.25rem;
+    padding: 4.5rem 6.25rem 2rem;
     width: 85%;
   }
 }
