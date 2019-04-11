@@ -17,7 +17,7 @@
 }
 
 .image {
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 50vw;
   width: 50vw;

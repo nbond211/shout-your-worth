@@ -34,14 +34,14 @@ function FAQ(props) {
 
   const urls = _.map(allFile.edges, (e) => e.node.childImageSharp.fluid.src);
 
-  return <PhotoStrip urls={urls} className={styles.faq}>
+  return <PhotoStrip urls={urls} className={styles.faq} containerClassName={styles.photostrip}>
     <div className={styles.wrapper}>
       <div className={styles.container}>
-        <h5>Frequently Asked Questions</h5>
+        <h5 className={styles.title}>Frequently Asked Questions</h5>
         {_.map(allFaqsJson.edges, (e, idx) => 
           <div className={styles.question} key={idx}>
-            <h3>{e.node.question}</h3>
-            <p>{e.node.answer}</p>
+            <h3 className={styles.questionTitle}>{e.node.question}</h3>
+            <p className={styles.questionAnswer}>{e.node.answer}</p>
           </div>
           )}
       </div>

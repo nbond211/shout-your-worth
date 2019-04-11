@@ -4,7 +4,7 @@ import styles from "../styles/photo-strip.module.css"
 
 export default function PhotoStrip(props) {
   return <div className={props.className}>
-    <div className={styles.container}>
+    <div className={`${styles.container} ${props.containerClassName}`}>
       { _.map(props.urls, (url, idx) => {
         return <div key={idx} 
           className={styles.image} 
