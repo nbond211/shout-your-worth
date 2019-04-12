@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import styles from "../styles/testimonials.module.css"
+import quotationMark from "../images/testimonials/quotation.svg";
 
 class Testimonials extends React.Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class Testimonials extends React.Component {
 
     return <div className={styles.container}>
       <div className={styles.testimonials}>
+        <img className={styles.quotationMark} src={quotationMark} alt="quotation mark"/>
         <h1>{current.quote}</h1>
         <h5>{current.name}, {current.age}</h5>
       </div>
