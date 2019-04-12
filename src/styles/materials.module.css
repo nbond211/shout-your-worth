@@ -62,6 +62,10 @@ img.materials {
     padding-left: 4rem;
     padding-top: 1rem;
   }
+
+  .splash {
+    background-position: center -14rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -72,6 +76,16 @@ img.materials {
   .col_2 {
     width: 40%;
     padding-top: 7.5rem;
+  }
+
+  .splash {
+    background-position: center -7rem;
+  }
+}
+
+@media (min-width: 1190px) {
+  .splash {
+    background-position: center top;
   }
 }
 
