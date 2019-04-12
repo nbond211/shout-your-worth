@@ -39,7 +39,7 @@
 }
 
 .blueLoops {
-  background-image: url("../images/faq/blueloops.png");
+  background-image: url("../images/faq/shapes/blueloops.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 33.375rem;
@@ -51,7 +51,7 @@
 }
 
 .greenBlob {
-  background-image: url("../images/faq/greenblob.png");
+  background-image: url("../images/faq/shapes/greenblob.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 21.5rem;
@@ -63,7 +63,7 @@
 }
 
 .pinkDots {
-  background-image: url("../images/faq/pinkdots.png");
+  background-image: url("../images/faq/shapes/pinkdots.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 19.8125rem;
