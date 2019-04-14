@@ -9,6 +9,7 @@ import Header from "../components/header"
 import Materials from "../components/materials"
 import SEO from "../components/seo"
 import Testimonials from "../components/testimonials"
+import Process from "../components/process";
 import ValueStatement from "../components/value-statement"
 
 import IndexStyles from "./index.module.scss";
@@ -22,6 +23,7 @@ const IndexPage = () => (
     <CTA />
     <Materials />
     <Testimonials />
+    <Process />
     <FAQ />
     <Footer />
   </Layout>
