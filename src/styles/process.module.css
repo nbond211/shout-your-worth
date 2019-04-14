@@ -23,6 +23,34 @@
   margin-left: 0;
 }
 
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.title {
+  margin: 0 2.5rem 0 0;
+}
+
+.stageToggleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  font-family: 'Avenir-Black', sans-serif;
+  font-size: 10px;
+}
+
+.arrow {
+  margin: 0 0.50rem;
+}
+
+.description {
+  margin-top: 0.25rem;
+}
+
 @media (min-width: 768px) {
   .wrapper {
     flex-direction: row;
