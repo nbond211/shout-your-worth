@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  padding: 0 4rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  align-self: center
+}
+
+.textContainer {
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .image {
+    width: 57%;
+  }
+
+  .textContainer {
+    width: 40%;
+    margin-left: 3.75rem;
+    max-width: 22.75rem;
+  }
+}

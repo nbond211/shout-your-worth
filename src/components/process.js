@@ -20,8 +20,18 @@ class Process extends React.Component {
 
     return (
       <div className={styles.container}>
-        <p>{current.title}</p>
-        <p>{current.description}</p>
+        <div className={styles.wrapper}>
+          <img
+            src={require(`../images/process/${current.image}`)}
+            className={styles.image}
+          />
+          <div className={styles.textContainer}>
+            <div className={styles.titleContainer}>
+              <h3>{current.title}</h3>
+            </div>
+            <p>{current.description}</p>
+          </div>
+        </div>
       </div>
   );
   }
