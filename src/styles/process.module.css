@@ -47,6 +47,10 @@
   margin: 0 0.50rem;
 }
 
+.arrow:hover {
+  cursor: pointer;
+}
+
 .description {
   margin-top: 0.25rem;
 }
