@@ -16,7 +16,10 @@ class Process extends React.Component {
   }
 
   previous() {
-    this.setState({index: (this.state.index - 1) % this.props.data.length})
+    const {index} = this.state;
+    let newIndex = index - 1;
+    newIndex = (newIndex < 0) ? this.props.data.length - 1 : newIndex;
+    this.setState({index: newIndex});
   }
 
 
@@ -27,8 +30,6 @@ class Process extends React.Component {
       const className = `${styles.dot} ${index === this.state.index ? styles.selected : ""}`
       return (<span onClick={() => this.setState({index})} key={index} className={className}/>)
     });
-
-    console.log(dots);
 
     return (
       <div className={styles.container}>
