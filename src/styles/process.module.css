@@ -1,6 +1,8 @@
 .container {
   display: flex;
-  padding: 0 4rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
 }
 
 .wrapper {
@@ -53,6 +55,28 @@
 
 .description {
   margin-top: 0.25rem;
+}
+
+.dotsContainer {
+  width: 2.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #979797;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--almost-black-color);
 }
 
 @media (min-width: 768px) {

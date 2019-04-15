@@ -23,6 +23,13 @@ class Process extends React.Component {
   render() {
     const current = this.props.data[this.state.index].node;
 
+    const dots = [1, 2, 3].map((val, index) => {
+      const className = `${styles.dot} ${index === this.state.index ? styles.selected : ""}`
+      return (<span onClick={() => this.setState({index})} key={index} className={className}/>)
+    });
+
+    console.log(dots);
+
     return (
       <div className={styles.container}>
         <div className={styles.wrapper}>
@@ -45,6 +52,9 @@ class Process extends React.Component {
             </div>
             <p className={styles.description}>{current.description}</p>
           </div>
+        </div>
+        <div className={styles.dotsContainer}>
+          {dots}
         </div>
       </div>
   );
