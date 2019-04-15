@@ -10,13 +10,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 6rem;
-  height: 25rem;
+  margin-bottom: 2rem;
+  width: 80vw;
 }
 
 .image {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 50vw;
   align-self: center
 }
 
@@ -85,15 +85,24 @@
 @media (min-width: 768px) {
   .wrapper {
     flex-direction: row;
+    height: 25rem;
+    width: auto;
   }
 
   .image {
     width: 57%;
+    height: auto;
   }
 
   .textContainer {
     width: 40%;
     margin-left: 3.75rem;
     max-width: 22.75rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .wrapper {
+    margin-bottom: 6rem;
   }
 }
