@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 6rem;
+  height: 25rem;
 }
 
 .image {
@@ -33,6 +34,7 @@
 
 .title {
   margin: 0 2.5rem 0 0;
+  width: 5rem;
 }
 
 .stageToggleContainer {
@@ -55,6 +57,7 @@
 
 .description {
   margin-top: 0.25rem;
+  height: 8rem;
 }
 
 .dotsContainer {
