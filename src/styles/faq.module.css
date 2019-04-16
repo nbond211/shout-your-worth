@@ -42,11 +42,12 @@
   background-image: url("../images/faq/shapes/blueloops.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 33.375rem;
-  width: 10.6875rem;
+  background-position: bottom left;
+  height: 100%;
+  width: 33rem;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: -5rem;
+  left: -17rem;
   z-index: -1;
 }
 
