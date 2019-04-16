@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Research",
+    "description": "To start, we conducted a literature review and expert interviews in order to define a target audience. Once defined as women aged 22-35 at a crossroads in their careers, we realized that our solution needed to meet women where they are and make them feel confident.",
+    "image": "research.png"
+  },
+  {
+    "title": "Playtesting",
+    "description": "We iteratively revised the rules of our game by conducting playtests with users. In addition to recording our observations, we conducted group interviews after each playtest to gather player feedback about what they thought worked and what didn’t.",
+    "image": "playtesting.png"
+  },
+  {
+    "title": "Design",
+    "description": "In parallel with playtesting and iterating on the game mechanics, we iterated on card design and overall brand look & feel. As we watched more people play and react to the cards, we started to move towards an approachable, crafted look.",
+    "image": "design.png"
+  }
+]
