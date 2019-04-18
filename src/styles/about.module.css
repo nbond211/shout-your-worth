@@ -263,3 +263,10 @@
     background-size: contain;
   }
 }
+
+@media (min-width: 1500px) {
+  .splash {
+    background-position: center -5.5rem;
+    background-size: contain;
+  }
+}
