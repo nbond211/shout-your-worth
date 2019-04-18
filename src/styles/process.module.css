@@ -106,3 +106,13 @@
     margin-bottom: 6rem;
   }
 }
+
+@media (min-width: 1500px) {
+  .container {
+    margin-bottom: 3rem;
+  }
+
+  .wrapper {
+    height: 40rem;
+  }
+}
