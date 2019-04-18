@@ -48,22 +48,23 @@
 
 .card {
   position: absolute;
-  transform: scale(0.6);
+  transform-origin: top right;
+  transform: scale(0.3);
 }
 
 .accomplishment35 {
-  top: -5rem;
-  right: -2rem;
+  top: 1rem;
+  right: 3rem;
 }
 
 .skill25 {
-  top: 3rem;
-  right: -8rem;
+  top: 9rem;
+  right: -3rem;
 }
 
 .result19 {
-  top: 14.5rem;
-  right: 0;
+  top: 20.5rem;
+  right: 5rem;
 }
 
 .skill22 {
@@ -86,40 +87,40 @@
 
   .card {
     position: absolute;
-    transform: scale(0.8);
+    transform: scale(0.4);
   }
 
   .accomplishment35 {
-    top: -3rem;
-    right: 6rem;
+    top: 0;
+    right: 8.5rem;
   }
 
   .skill25 {
-    top: 9rem;
-    right: -2rem;
+    top: 12rem;
+    right: 0.5rem;
   }
 
   .result19 {
-    top: 20.5rem;
-    right: 8rem;
+    top: 23.5rem;
+    right: 10.5rem;
   }
 }
 
 /* tablet and up */
 @media (min-width: 600px) {
   .accomplishment35 {
-    top: -3rem;
-    right: 15rem;
+    top: 0;
+    right: 17.5rem;
   }
 
   .skill25 {
-    top: 9rem;
-    right: 1rem;
+    top: 12rem;
+    right: 3.5rem;
   }
 
   .result19 {
-    top: 20.5rem;
-    right: 8rem;
+    top: 23.5rem;
+    right: 11.5rem;
   }
 
 }
@@ -147,8 +148,8 @@
    }
 
   .accomplishment35 {
-    top: 17rem;
-    right: 1rem;
+    top: 20rem;
+    right: 3.5rem;
   }
 
   .skill25 {
@@ -156,13 +157,13 @@
   }
 
   .result19 {
-    top: 29.5rem;
-    right: -11rem;
+    top: 32.5rem;
+    right: -8.5rem;
   }
 
   .skill22 {
-    top: 38.375rem;
-    right: -4rem;
+    top: 41.375rem;
+    right: -1.5rem;
     display: inline;
   }
 }
@@ -182,7 +183,7 @@
   }
 
   .card {
-    transform: scale(1);
+    transform: scale(.5);
   }
 
   .accomplishment35 {
