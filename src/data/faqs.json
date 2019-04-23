@@ -1,18 +1,22 @@
 [
   { 
     "question": "Why a deck of cards?",
-    "answer": "Shout Your Worth can be used in a variety of contexts: as supplemental material for an existing salary negotiation workshop, as an informal game played with friends, or an icebreaker. Through a series of iterative play-tests, we’ve shown that Shout Your Worth offers a friendly entry point for the difficult task of self-advocacy in interview settings."
+    "answer": "<i>Shout Your Worth</i> can be used in a variety of contexts: as supplemental material for an existing salary negotiation workshop, as an informal game played with friends, or an icebreaker. Through a series of iterative play-tests, we’ve shown that <i>Shout Your Worth</i> offers a friendly entry point for the difficult task of self-advocacy in interview settings."
   },
   { 
     "question": "Can I use this toolkit by myself?",
-    "answer": "Definitely! You can use Shout Your Worth cards as an exercise to jog your memory before a big interview, or even just to boost your confidence before a big day at work. Don’t forget - you’re worth it!"
+    "answer": "Definitely! You can use <i>Shout Your Worth</i> cards as an exercise to jog your memory before a big interview, or even just to boost your confidence before a big day at work. Don’t forget — you’re worth it!"
   },
   {
     "question": "What are some other resources I can practice with?",
-    "answer": "We’re big fans of the American Association for University Women (AAUW)’s online training. If you’re local to Boston, the city also teaches this curriculum in free, in-person workshops."
+    "answer": "We’re big fans of the American Association for University Women (AAUW)’s <a href=\"https://salary.aauw.org/\" target=\"_blank\">online training</a>. If you’re local to Boston, the city also teaches this curriculum in free, in-person workshops."
   },
   {
     "question": "Where should I print the cards?",
     "answer": "Our open source toolkit could be used digitally, or even printed on your home printer! For heavier paper, we’d recommend you take the files to your local office supply store."
+  },
+  {
+    "question": "I have ideas / questions / feedback! How can I contact you?",
+    "answer": "We'd love to hear from you! You can reach us at <a href=\"mailto:shoutyourworth@gmail.com\">shoutyourworth@gmail.com</a>."
   }
 ]
