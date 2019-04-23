@@ -35,7 +35,7 @@ h5.cta {
 
 @media (min-width: 450px) {
   .button {
-    margin: 7rem 0 2.375rem 0;
+    margin: 4.25rem 0 1.75rem 0;
   }
 }
 
@@ -53,6 +53,10 @@ h5.cta {
   .image {
     height: 33.33vw;
     width: 33.33vw;
+  }
+
+  .button {
+     margin: 5rem 0 2.375rem 0;
   }
 }
 

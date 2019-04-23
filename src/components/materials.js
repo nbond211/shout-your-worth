@@ -18,7 +18,7 @@ export default function Materials(props) {
         <li>1 Rule Booklet</li>
       </ul>
       </div>
-      <Button className={styles.button} href="#TODO">Download For Free</Button>
+      <Button className={styles.button} href="https://drive.google.com/file/d/1voaukF8i6dYZXjHSyTzbs1jlV2TJozc4/view" download>Download For Free</Button>
     </div>
   </div>;
 }
