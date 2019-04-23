@@ -35,6 +35,30 @@
   white-space: nowrap;
 }
 
+.statement:global(#accomplishment) .value {
+  border-color: var(--yellow-color);
+}
+
+.statement:global(#accomplishment) .title {
+  color: var(--yellow-color);
+}
+
+.statement:global(#skill) .value {
+  border-color: var(--blue-color);
+}
+
+.statement:global(#skill) .title {
+  color: var(--blue-color);
+}
+
+.statement:global(#result) .title {
+  color: var(--green-color);
+}
+
+.statement:global(#result) .value {
+  border-color: var(--green-color);
+}
+
 .title {
   margin: 1.25rem 0 3rem 0;
   letter-spacing: 0.12rem;
