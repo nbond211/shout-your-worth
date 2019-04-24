@@ -27,41 +27,42 @@
   width: 80%;
 }
 
+.statement span {
+  width: 100%;
+}
+
+h3.value {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
 .value {
   font-family: 'Caveat', cursive;
   font-size: 24px;
   line-height: 35px;
-  border-bottom: 1px solid var(--almost-black-color);
   white-space: nowrap;
 }
 
-.statement:global(#accomplishment) .value {
-  border-color: var(--yellow-color);
+.title {
+  border-top: 1px solid var(--almost-black-color);
+  padding-top: 1.25rem;
+  margin: 0 0 3rem 0;
+  letter-spacing: 0.12rem;
 }
 
 .statement:global(#accomplishment) .title {
+  border-color: var(--yellow-color);
   color: var(--yellow-color);
 }
 
-.statement:global(#skill) .value {
-  border-color: var(--blue-color);
-}
-
 .statement:global(#skill) .title {
+  border-color: var(--blue-color);
   color: var(--blue-color);
 }
 
 .statement:global(#result) .title {
-  color: var(--green-color);
-}
-
-.statement:global(#result) .value {
   border-color: var(--green-color);
-}
-
-.title {
-  margin: 1.25rem 0 3rem 0;
-  letter-spacing: 0.12rem;
+  color: var(--green-color);
 }
 
 @media (min-width: 450px) {
@@ -90,7 +91,7 @@
   }
 
   .title {
-    margin: 1.25rem 0 0 0;
+    padding: 1.25rem 0 0 0;
   }
 
   .testimonials {

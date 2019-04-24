@@ -1,7 +1,8 @@
 import React from "react"
+import { AnimateOnChange } from "react-animation"
 import { graphql, StaticQuery } from "gatsby"
 import styles from "../styles/testimonials.module.css"
-import quotationMark from "../images/testimonials/quotation.svg";
+import quotationMark from "../images/testimonials/quotation.svg"
 
 class Testimonials extends React.Component {
   constructor(props) {
@@ -16,7 +17,7 @@ class Testimonials extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => {this.advance();}, 3000);
+    this.interval = setInterval(() => {this.advance();}, 3400);
   }
 
   componentWillUnmount() {
@@ -28,9 +29,11 @@ class Testimonials extends React.Component {
 
     return <div className={styles.container}>
       <div className={styles.testimonials}>
-        <img className={styles.quotationMark} src={quotationMark} alt="quotation mark"/>
-        <h1>{current.quote}</h1>
-        <h5>{current.name}, {current.age}</h5>
+        <AnimateOnChange>
+          <img className={styles.quotationMark} src={quotationMark} alt="quotation mark"/>
+          <h1>{current.quote}</h1>
+          <h5>{current.name}, {current.age}</h5>
+        </AnimateOnChange>
       </div>
     </div>;
   }
