@@ -15,11 +15,21 @@ export default function About(props) {
     </div>
     <div className={styles.contentContainer}>
       <div className={styles.col_2}>
-        <img className={`${styles.accomplishment35} ${styles.card}`} src={accomplishment35}/>
-        <img className={`${styles.skill25} ${styles.card}`} src={skill25}/>
-        <img className={`${styles.result19} ${styles.card}`} src={result19}/>
-        <img className={`${styles.skill22} ${styles.card}`} src={skill22}/>
-        <img className={`${styles.accomplishment34} ${styles.card}`} src={accomplishment34}/>
+        <img className={`${styles.accomplishment35} ${styles.card}`} 
+             src={accomplishment35} 
+             alt="Accomplishment: tackled a problem that initially seemed overwhelming" />
+        <img className={`${styles.skill25} ${styles.card}`} 
+             src={skill25} 
+             alt="Skill: determination and persistence" />
+        <img className={`${styles.result19} ${styles.card}`} 
+             src={result19}
+             alt="Result: had my work recognized by someone I admire" />
+        <img className={`${styles.skill22} ${styles.card}`} 
+             src={skill22}
+             alt="Skill: critical thinking skills" />
+        <img className={`${styles.accomplishment34} ${styles.card}`} 
+             src={accomplishment34}
+             alt="Accomplishment: supported someone through a difficult time" />
       </div>
       <div className={styles.about}>
         <div className={styles.col_1}>

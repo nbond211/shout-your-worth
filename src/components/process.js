@@ -36,6 +36,7 @@ class Process extends React.Component {
         <div className={styles.wrapper}>
           <img
             src={require(`../images/process/${current.image}`)}
+            alt="Process"
             className={styles.image}
           />
           <div className={styles.textContainer}>
