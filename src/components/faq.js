@@ -41,7 +41,7 @@ function FAQ(props) {
         {_.map(allFaqsJson.edges, (e, idx) => 
           <div className={styles.question} key={idx}>
             <h3 className={styles.questionTitle}>{e.node.question}</h3>
-            <p className={styles.questionAnswer}>{e.node.answer}</p>
+            <p className={styles.questionAnswer} dangerouslySetInnerHTML={createMarkup(e.node.answer)}></p>
           </div>
           )}
       </div>
@@ -50,6 +50,10 @@ function FAQ(props) {
     <div className={styles.greenBlob}/>
     <div className={styles.pinkDots}/>
   </PhotoStrip>;
+}
+
+function createMarkup(rawText) {
+  return {__html: rawText};
 }
 
 export default FAQ

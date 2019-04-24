@@ -57,7 +57,7 @@ class ValueStatement extends React.Component {
 }
 
 function Statement(props) {
-  return <div className={styles.statement}>
+  return <div className={styles.statement} id={props.title}>
     <h3 className={styles.value}>{props.value}</h3>
     <h5 className={styles.title}>{props.title}</h5>
   </div>;

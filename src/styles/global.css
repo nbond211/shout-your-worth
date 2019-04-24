@@ -37,6 +37,8 @@
     --white-color: #fff;
     --almost-white-color: #FEFCF8;
     --blue-color: #2550A3;
+    --green-color: #1C6C52;
+    --yellow-color: #F7BA22;
     --beige-color: #FAF6F1;
 
     /* Breakpoints */
@@ -47,10 +49,10 @@
 }
 
 @media screen and (min-width: 600px) {
-  :root {
-    /* Font Sizes */
-    --h1-font-size: 38px;
-  }
+    :root {
+        /* Font Sizes */
+        --h1-font-size: 38px;
+    }
 }
 
 * {
@@ -64,8 +66,8 @@ body {
 }
 
 main {
-  width: 100vw;
-  overflow: hidden;
+    width: 100vw;
+    overflow: hidden;
 }
 
 h1 {
@@ -83,14 +85,22 @@ h3 {
     font-family: 'Avenir-Black', sans-serif;
 }
 
-p {
-    font-size: var(--p-font-size);
-    font-family: 'ProspectusM-Reg', serif;
-}
-
 h5 {
     font-size: var(--h5-font-size);
     font-family: 'Avenir-Black', sans-serif;
     text-transform: uppercase;
     margin: 0;
+}
+
+p {
+    font-size: var(--p-font-size);
+    font-family: 'ProspectusM-Reg', serif;
+}
+
+a {
+    color: var(--blue-color);
+}
+
+a:visited {
+    color: var(--blue-color);
 }
