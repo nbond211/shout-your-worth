@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { AnimateOnChange } from "react-animation"
+import AnimateOnChange from "./animation/AnimateOnChange"
 import { graphql, StaticQuery } from "gatsby"
 import styles from "../styles/value-statement.module.css"
 
@@ -61,7 +61,7 @@ function Statement(props) {
   return <div className={styles.statement} id={props.title}>
     <AnimateOnChange>
       <h3 className={styles.value}>{props.value}</h3>
-      </AnimateOnChange>
+    </AnimateOnChange>
     <h5 className={styles.title}>{props.title}</h5>
   </div>;
 }
