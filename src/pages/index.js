@@ -12,8 +12,6 @@ import Testimonials from "../components/testimonials"
 import Process from "../components/process";
 import ValueStatement from "../components/value-statement"
 
-import IndexStyles from "./index.module.scss";
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
