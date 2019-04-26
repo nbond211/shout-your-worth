@@ -7,7 +7,7 @@ export default function Materials(props) {
   return <div className={styles.container}>
     <div className={styles.splash}/>
     <div className={styles.col_1}>
-      <img className={styles.materials} src={materials} />
+      <img className={styles.materials} src={materials} alt="Playmat, cards, and rulebook" />
     </div>
     <div className={styles.col_2}>
       <div className={styles.textContainer}>

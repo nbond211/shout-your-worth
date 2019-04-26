@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import AnimateOnChange from "./animation/AnimateOnChange"
 import { graphql, StaticQuery } from "gatsby"
 import styles from "../styles/value-statement.module.css"
 
@@ -30,7 +31,7 @@ class ValueStatement extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => {this.randomizeValueStatement();}, 3000);
+    this.interval = setInterval(() => {this.randomizeValueStatement();}, 3400);
   }
 
   componentWillUnmount() {
@@ -58,7 +59,9 @@ class ValueStatement extends React.Component {
 
 function Statement(props) {
   return <div className={styles.statement} id={props.title}>
-    <h3 className={styles.value}>{props.value}</h3>
+    <AnimateOnChange>
+      <h3 className={styles.value}>{props.value}</h3>
+    </AnimateOnChange>
     <h5 className={styles.title}>{props.title}</h5>
   </div>;
 }
